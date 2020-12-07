@@ -1,0 +1,17 @@
+{% extends "top_bar.html" %}
+
+{% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <div class="main_content">
+
+        <h1>Le projet</h1>
+        <div>
+            {% for paragraphe in texte_a_propos %}
+            <p>{{paragraphe}}</p>
+            {% endfor %}
+            <p>Contact: <a href="mailto:info@box2box.ca" class="contact">info@box2box.ca</a></p>
+        </div>
+
+    </div>
+
+{% endblock %}

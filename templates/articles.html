@@ -1,0 +1,29 @@
+{% extends "top_bar.html" %}
+
+{% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <div class="main_content">
+        <h1>Articles</h1>
+
+       {% for key, value in articles_json.items() %}
+            <div>
+                <h2 class="article_summary_block">
+                    <a class= "lire_plus" href="/articles/{{key}}">{{value['titre']}}</a>
+                </h2>
+                <h3 class="article_summary_block">
+                    {{value['date']}}
+                </h3>
+
+                <p>{{value['description']}}
+                (<a class= "lire_plus" href="/articles">lire la suite</a>)</p>
+
+            </div>
+            <!-- Uncomment cette partie lorsqu'il y aura plus d'un article
+            <div class="end_of_something_border">
+            </div>
+            -->
+       {% endfor %}
+
+    </div>
+
+{% endblock %}

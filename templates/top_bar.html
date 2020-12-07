@@ -1,30 +1,45 @@
 <html>
     <head>
         <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
-          {% if title %}
-          <title>{{ title }} - yasap</title>
-          {% else %}
-          <title>Welcome to yasap</title>
-          {% endif %}
     </head>
+    <div class="top_bar">
 
-    <div class="topnav">
-      {% if active=="home" %}
-      <a class="active" href="#home">Home</a>
-      <a href="#articles">Articles</a>
-      <a href="#about">About</a>
+        <div class="smaller_top_logo">
+            <p style="text-align:center;">
+                <a href="/"><img src="{{ url_for('static', filename='logo.png') }}" alt="box2box" height="75"></a>
+            </p>
+        </div>
 
-      {% elif active=="news" %}
-      <a href="#home">Home</a>
-      <a class="active" href="#articles">Articles</a>
-      <a href="#about">About</a>
+          {% if active=="home" %}
+            <div class="topitem"> <a class="active" href="/">accueil</a> </div>
+            <div class="topitem"> <a href="/articles">articles</a> </div>
+            <div class="topitem"> <a href="/a-propos">à propos</a> </div>
 
-      {% else %}
-      <a href="#home">Home</a>
-      <a href="#articles">Articles</a>
-      <a class="active" href="#about">About</a>
-      {% endif %}
+          {% elif active=="articles" %}
+            <div class="topitem"> <a href="/">accueil</a> </div>
+            <div class="topitem"> <a class="active" href="/articles">articles</a> </div>
+            <div class="topitem"> <a href="/a-propos">à propos</a> </div>
+
+          {% else %}
+            <div class="topitem"> <a href="/">accueil</a> </div>
+            <div class="topitem"> <a href="/articles">articles</a> </div>
+            <div class="topitem"> <a class="active" href="/a-propos">à propos</a> </div>
+          {% endif %}
+
+
+        <div class="top_logo">
+            <p style="text-align:center;">
+                <a href="/"><img src="{{ url_for('static', filename='logo.png') }}" alt="box2box" height="100"></a>
+            </p>
+        </div>
+
+
+
+        <div class="placeholder">
+
+        </div>
 
     </div>
+
     {% block content %}{% endblock %}
 </html>

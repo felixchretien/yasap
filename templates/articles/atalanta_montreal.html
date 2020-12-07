@@ -1,0 +1,23 @@
+{% extends "top_bar.html" %}
+
+{% block content %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <div class="main_content">
+
+        <h1>{{ current_article['titre'] }}</h1>
+        <div>
+            {% for paragraphe in current_article['texte'] %}
+            <p>{{ paragraphe | safe }}</p>
+            {% endfor %}
+        </div>
+
+        <div class="bas_de_page_border">
+        </div>
+
+        <div>
+            <p class="note_de_bas_de_page">{{ current_article['bas_de_page'] | safe }}</p>
+        </div>
+
+
+    </div>
+{% endblock %}

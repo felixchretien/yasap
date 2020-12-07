@@ -2,10 +2,49 @@
 
 {% block content %}
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
-    <h1>ETUDE DE LA PERFORMANCE</h1>
-    <div>
-        <p>{{message}}</p>
-        <p>{{message}}</p>
-        <p>{{message}}</p>
+    <div class="bigtitle">
+        <h1>Le blogue d'analyse de la MLS.</h1>
     </div>
+
+    <div class="homepage_container">
+
+        <div class="one_third">
+            <p style="text-align:center;">
+            <img src="{{ url_for('static', filename='icones/legal.png') }}" alt="icone">
+            </p>
+            <h3>Management</h3>
+            <p>Gestion sportive et commentaire juridique.</p>
+        </div>
+
+        <div class="one_third">
+            <p style="text-align:center;">
+            <img src="{{ url_for('static', filename='icones/analytics.png') }}" alt="icone">
+            </p>
+            <h3>Analytique</h3>
+            <p>Utilisation des méthodes statistiques modernes et base de données massives.</p>
+        </div>
+
+        <div class="one_third">
+            <p style="text-align:center;">
+            <img src="{{ url_for('static', filename='icones/soccer.png') }}" alt="icone">
+            </p>
+            <h3>Sports</h3>
+            <p>Analyse des performances sportives</p>
+        </div>
+
+    </div>
+
+    <div class="last_article">
+        <h1>Dernier article</h1>
+        <h2>
+            <a class= "lire_plus" href="{{ last_article_route }}">{{ last_article['titre'] }}</a>
+        </h2>
+        <h3>
+            {{ last_article['date'] }}
+        </h3>
+
+        <p>{{ last_article['description'] | safe }} (<a href="{{ last_article_route }}">lire la suite</a>)</p>
+    </div>
+
+
 {% endblock %}
