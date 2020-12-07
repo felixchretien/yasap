@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+          {% if title %}
+          <title>{{ title }} - yasap</title>
+          {% else %}
+          <title>Welcome to yasap</title>
+          {% endif %}
+    </head>
+
+    <div class="topnav">
+      {% if active=="home" %}
+      <a class="active" href="#home">Home</a>
+      <a href="#articles">Articles</a>
+      <a href="#about">About</a>
+
+      {% elif active=="news" %}
+      <a href="#home">Home</a>
+      <a class="active" href="#articles">Articles</a>
+      <a href="#about">About</a>
+
+      {% else %}
+      <a href="#home">Home</a>
+      <a href="#articles">Articles</a>
+      <a class="active" href="#about">About</a>
+      {% endif %}
+
+    </div>
+    {% block content %}{% endblock %}
+</html>

@@ -1,0 +1,60 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+html{
+  background-color: #eeeeee;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1{
+  font-family: "Playfair Display";
+  font-size: 50px;
+  padding-top: 10%;
+}
+
+p{
+  font-family: "Open Sans";
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 2%;
+  font-size: 15px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #eeeeee;
+  font-family: "Open Sans";
+  overflow: hidden;
+  border-bottom: 4px double;
+  position: fixed;
+  width: 85%;
+  top: 0;
+  padding-top: 2%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+
+.topnav a.active:hover {
+  color: #000000;
+}
