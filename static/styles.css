@@ -8,7 +8,7 @@ html{
 }
 
 body{
-  margin: 1%;
+  margin: 2vh;
 }
 
 h1{
@@ -89,62 +89,6 @@ a.appel_bas_de_age{
 }
 
 
-.topitem{
-  flex: 10%;
-  display: flex;
-  font-family: 'Mukta', sans-serif;
-}
-
-/* Style the links inside the navigation bar */
-.topitem a {
-  float: left;
-  color: #000000;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  margin: 0;
-  width: 100%;
-}
-
-
-/* Add a color to the active/current link */
-.topitem a.active {
-  background-color: #000000;
-  color: white;
-}
-
-.topitem a.active:hover {
-  color: white;
-}
-
-@media (max-width: 800px) {
-  .top_bar{
-    justify-content: center;
-    align-items: center;
-  }
-  .topitem{
-    flex: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  .topitem a {
-    float: none;
-    margin: 0;
-  }
-  .top_logo{
-    display: none;
-  }
-  .smaller_top_logo{
-    display: inline-block;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
-  .placeholder{
-    display: none;
- }
-}
-
 
 /* Format the articles summary blocks */
 
@@ -157,7 +101,7 @@ h2.article_summary_block {
 
 h3.article_summary_block {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   color: #4c4c4c;
   font-family: 'Mukta', sans-serif;
 }
@@ -233,11 +177,10 @@ a:hover.lire_plus{
 }
 
 .bigtitle{
-  margin-bottom: 1%;
-  margin-top: 1%;
+  margin-bottom: 2vh;
   background-image: url('../static/back.jpg');
   background-size: cover;
-  height: 82%;
+  height: 86vh;
 }
 
 .bigtitle h1{
@@ -270,7 +213,7 @@ a:hover.lire_plus{
 
 .last_article h3 {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   color: #4c4c4c;
   font-family: 'Mukta', sans-serif;
 }
@@ -286,6 +229,10 @@ a:hover.lire_plus{
 }
 
 
+.main_content p {
+  padding-top: 1%;
+}
+
 a.contact{
   color: #19af54;
 }
@@ -294,3 +241,298 @@ a:hover.contact{
   text-decoration: none;
   color: #19af54;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px;
+  flex-wrap: wrap;
+  font-family: 'Mukta', sans-serif;
+}
+nav .logo{
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover{
+  color: #19af54;
+}
+nav .menu-btn i{
+  color: black;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+@media screen and (orientation:portrait){
+  nav .menu-btn i {
+    font-size: 32px;
+  }
+  .logo img {
+    height: 40%;
+  }
+}
+
+@media (max-width: 1000px){
+  nav{
+    padding-right: 25px ;
+  }
+}
+
+@media only screen and (hover: none) and (pointer: coarse){
+  nav{
+    padding-right: 25px ;
+  }
+}
+
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: absolute;
+    top: 11vh;
+    left: -100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.4s ease;
+    background-color: #eeeeee;
+
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 20px;
+    /*transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);*/
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+
+  nav ul li a:hover{
+    background: none;
+    color: #19af54;
+  }
+}
+
+
+@media only screen and (hover: none) and (pointer: coarse){
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: absolute;
+    top: 11vh;
+    left: -100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.4s ease;
+    background-color: #eeeeee;
+
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 20px;
+    /*transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);*/
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+
+  nav ul li a:hover{
+    background: none;
+    color: #19af54;
+  }
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: -1;
+  width: 100%;
+  padding: 0 30px;
+}
+.content div{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.home_about {
+  background-color: white;
+  margin: 0;
+  padding-top: 5vh;
+}
+
+.home_about h1 {
+  margin: 5vh;
+  font-weight: normal;
+  font-size: 42px;
+}
+
+
+.home_about h2 {
+  margin: 5vh;
+  font-family: 'Mukta', sans-serif;
+  font-weight: normal;
+  font-size: 23px;
+}
+
+
+#en-savoir-plus {
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.les-garcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.gars {
+  height: 40vh;
+}
+
+@media (max-width: 800px) {
+  .les-garcons {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (orientation:portrait){
+.gars {
+    flex: 100%;
+    height: 35vh;
+  }
+}
+
+@media screen and (max-device-width: 750px) and (orientation:portrait){
+.gars p{
+    font-size: 36px;
+  }
+}
+
+@media screen and (orientation:landscape){
+.gars {
+    flex: 100%;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 800px) {
+.les-garcons {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (hover: none) and (pointer: coarse){
+.les-garcons {
+    margin-right: 0;
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+}
+
+
+.les-garcons img {
+  align-content: center;
+  border-radius: 50%;
+  height: 40%;
+  border-color: #eeeeee;
+  border-width: 1vh;
+  border-style: solid;
+}
+
+@media screen and (orientation:portrait){
+.les-garcons img {
+  height: 60%;
+  border-width: 0.5vh;
+  }
+}
+
+@media screen and (orientation:landscape){
+.les-garcons img {
+  height: 60%;
+  border-width: 0.5vh;
+  }
+}
+
+.les-garcons p {
+  text-align: center;
+}
+

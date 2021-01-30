@@ -3,36 +3,36 @@
 {% block content %}
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
     <div class="bigtitle">
-        <h1>Le blogue d'analyse de la MLS.</h1>
+        <h1>Le blogue d'analyse de la MLS</h1>
     </div>
 
-    <div class="homepage_container">
-
-        <div class="one_third">
-            <p style="text-align:center;">
-            <img src="{{ url_for('static', filename='icones/legal.png') }}" alt="icone">
-            </p>
-            <h3>Management</h3>
-            <p>Gestion sportive et commentaire juridique.</p>
+    <div class="home_about">
+        <div>
+            <h1>On aime tellement le foot qu'on a créé ce site</h1>
+            <h2> Nous y combinons nos forces de juriste et de statisticien pour produire
+                des analyses poussées sur le management du foot nord-américain. (<a href="/a-propos">en savoir plus</a>)
+            </h2>
         </div>
 
-        <div class="one_third">
-            <p style="text-align:center;">
-            <img src="{{ url_for('static', filename='icones/analytics.png') }}" alt="icone">
-            </p>
-            <h3>Analytique</h3>
-            <p>Utilisation des méthodes statistiques modernes et base de données massives.</p>
-        </div>
+        <div class="les-garcons">
 
-        <div class="one_third">
-            <p style="text-align:center;">
-            <img src="{{ url_for('static', filename='icones/soccer.png') }}" alt="icone">
-            </p>
-            <h3>Sports</h3>
-            <p>Analyse des performances sportives</p>
+            <div class="gars">
+                <p><img src="{{ url_for('static', filename='simon.jpg') }}" alt="Simon de Andrade"></p>
+                <p><b>Simon de Andrade</b></p>
+                <p>Juriste en voie de devenir avocat</p>
+            </div>
+
+            <div class="gars">
+                <p><img src="{{ url_for('static', filename='felix.jpg') }}" alt="Félix Chrétien"></p>
+                <p><b>Félix Chrétien</b></p>
+                <p>Scientifique des données
+                </p>
+            </div>
+
         </div>
 
     </div>
+
 
     <div class="last_article">
         <h1>Dernier article</h1>
