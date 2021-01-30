@@ -1,45 +1,37 @@
-<html>
+<html xmlns="http://www.w3.org/1999/html">
     <head>
         <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </head>
-    <div class="top_bar">
+    <nav>
+        <div class="logo"><a href="/"><img height="80%" src="{{ url_for('static', filename='logo.png') }}"></a></div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+    {% if active=="home" %}
+    <ul>
+        <li><a class="active" href="/">accueil</a></li>
+        <li><a href="/articles">articles</a></li>
+        <li><a href="/a-propos">à propos</a></li>
+    </ul>
 
-        <div class="smaller_top_logo">
-            <p style="text-align:center;">
-                <a href="/"><img src="{{ url_for('static', filename='logo.png') }}" alt="box2box" height="75"></a>
-            </p>
-        </div>
+    {% elif active=="articles" %}
+    <ul>
+        <li><a href="/">accueil</a></li>
+        <li><a class="active" href="/articles">articles</a></li>
+        <li><a href="/a-propos">à propos</a></li>
+    </ul>
 
-          {% if active=="home" %}
-            <div class="topitem"> <a class="active" href="/">accueil</a> </div>
-            <div class="topitem"> <a href="/articles">articles</a> </div>
-            <div class="topitem"> <a href="/a-propos">à propos</a> </div>
+    {% else %}
+    <ul>
+        <li><a href="/">accueil</a></li>
+        <li><a href="/articles">articles</a></li>
+        <li><a class="active" href="/a-propos">à propos</a></li>
+    </ul>
 
-          {% elif active=="articles" %}
-            <div class="topitem"> <a href="/">accueil</a> </div>
-            <div class="topitem"> <a class="active" href="/articles">articles</a> </div>
-            <div class="topitem"> <a href="/a-propos">à propos</a> </div>
-
-          {% else %}
-            <div class="topitem"> <a href="/">accueil</a> </div>
-            <div class="topitem"> <a href="/articles">articles</a> </div>
-            <div class="topitem"> <a class="active" href="/a-propos">à propos</a> </div>
-          {% endif %}
-
-
-        <div class="top_logo">
-            <p style="text-align:center;">
-                <a href="/"><img src="{{ url_for('static', filename='logo.png') }}" alt="box2box" height="100"></a>
-            </p>
-        </div>
-
-
-
-        <div class="placeholder">
-
-        </div>
-
-    </div>
+    {% endif %}
+    </nav>
 
     {% block content %}{% endblock %}
 </html>
