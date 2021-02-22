@@ -4,3 +4,5 @@
 .flaskenv
 .gcloudignore
 .env
+database/new_data/*
+!database/new_data/.gitkeep
