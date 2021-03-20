@@ -16,7 +16,7 @@ def push_compensation_data():
     if os.getcwd()[-5:] == 'yasap':
         os.chdir('database')
 
-    df = pd.read_csv('new_data/new_data.csv', sep=';')
+    df = pd.read_csv('new_data/compensation.csv', sep=';')
 
     df['Total Compensation'] = df['Total Compensation'].str.replace(r"\xa0", "").astype(int)
 
