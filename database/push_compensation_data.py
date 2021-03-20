@@ -16,7 +16,7 @@ def push_compensation_data():
     if os.getcwd()[-5:] == 'yasap':
         os.chdir('database')
 
-    df = pd.read_csv('new_data/new_data.csv', sep=';')
+    df = pd.read_csv('new_data/compensation.csv', sep=';')
 
     df['Total Compensation'] = df['Total Compensation'].str.replace(r"\xa0", "").astype(int)
 
@@ -36,7 +36,7 @@ def push_compensation_data():
     records = [tuple(x) for x in df.to_records(index=False)]
 
     for record in progressbar.progressbar(records):
-        query = "INSERT INTO compensation (season, club, firstName, lastName, position, " \
+        query = "INSERT INTO compensation (season, club, firstName, lastName, position," \
                 "totalCompensation, baseSalary, dp)" \
                 f" VALUES {record}"
 
