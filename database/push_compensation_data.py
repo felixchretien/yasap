@@ -36,7 +36,7 @@ def push_compensation_data():
     records = [tuple(x) for x in df.to_records(index=False)]
 
     for record in progressbar.progressbar(records):
-        query = "INSERT INTO compensation (season, club, firstName, lastName, position, " \
+        query = "INSERT INTO compensation (season, club, firstName, lastName, position," \
                 "totalCompensation, baseSalary, dp)" \
                 f" VALUES {record}"
 

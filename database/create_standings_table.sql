@@ -1,0 +1,25 @@
+CREATE TABLE standings
+(
+    season INT(6),
+    ranking INT(6),
+    team VARCHAR(30),
+    teamName VARCHAR(30),
+    points INT(6),
+    gamesPlayed INT(6),
+    wins INT(6),
+    losses INT(6),
+    ties INT(6),
+    goalsFor INT(6),
+    goalsAgainst INT(6),
+    playoffsGamesPlayed INT(6),
+    playoffsWins INT(6),
+    playoffsLosses INT(6),
+    playoffsTies INT(6),
+    playoffsGoalsFor INT(6),
+    playoffsGoalsAgainst INT(6),
+    firstRound SMALLINT,
+    secondRound SMALLINT,
+    confFinal SMALLINT,
+    mlsCup SMALLINT,
+    PRIMARY KEY (season, team)
+);
