@@ -41,6 +41,6 @@ def make_articles_json():
 
 if __name__ == '__main__':
     if os.getcwd()[-3:] == 'app':
-        os.chdir('../')
+        os.chdir('../../')
 
     make_articles_json()

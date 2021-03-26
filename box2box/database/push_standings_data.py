@@ -9,7 +9,7 @@ try:
     from mysql_connection import db_connect
 
 except ModuleNotFoundError:
-    from database.mysql_connection import db_connect
+    from box2box.database.mysql_connection import db_connect
 
 
 def merge_and_clean_data():

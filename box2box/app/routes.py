@@ -1,12 +1,12 @@
 import json
 from flask import render_template
 
-from app import app
+from box2box.app import app
 
-with open('textes/a_propos.txt', 'r') as reader:
+with open('box2box/textes/a_propos.txt', 'r') as reader:
     texte_a_propos = reader.readlines()
 
-with open('textes/articles.json') as reader:
+with open('box2box/textes/articles.json') as reader:
     articles_json = json.load(reader)
 
 

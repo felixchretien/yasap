@@ -8,7 +8,7 @@ try:
     from mysql_connection import db_connect
 
 except ModuleNotFoundError:
-    from database.mysql_connection import db_connect
+    from box2box.database.mysql_connection import db_connect
 
 
 def push_compensation_data():
@@ -36,7 +36,7 @@ def push_compensation_data():
     records = [tuple(x) for x in df.to_records(index=False)]
 
     for record in progressbar.progressbar(records):
-        query = "INSERT INTO compensation (season, club, firstName, lastName, position," \
+        query = "INSERT INTO compensation (season, team, firstName, lastName, position," \
                 "totalCompensation, baseSalary, dp)" \
                 f" VALUES {record}"
 
