@@ -1,6 +1,7 @@
 import os
-import mysql.connector
 import dotenv
+import mysql.connector
+import pandas as pd
 
 
 def db_connect():
@@ -14,6 +15,17 @@ def db_connect():
     }
 
     return mysql.connector.connect(**config)
+
+
+def execute_query(query):
+
+    cnxn = db_connect()
+    cursor = cnxn.cursor()
+    cursor.execute(query)
+    out_df = pd.DataFrame(cursor.fetchall(), columns=cursor.column_names)
+    cnxn.close()
+
+    return out_df
 
 
 def create_compensation_table():

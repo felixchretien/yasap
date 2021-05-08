@@ -1,1 +1,1 @@
-from app import app
+from box2box.app import app
