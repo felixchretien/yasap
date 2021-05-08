@@ -6,3 +6,4 @@
 .env
 box2box/database/new_data/*
 !box2box/database/new_data/.gitkeep
+/venv

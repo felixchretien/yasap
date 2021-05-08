@@ -1,0 +1,26 @@
+{% extends "top_bar.html" %}
+
+{% block content %}
+
+<div class="loging_menu">
+    <h2>Console admin</h2>
+    <p>Ton IP: {{your_IP}}</p>
+    <div>
+        <form method="POST" action="/admin/salut-connard">
+            <div>
+                <div class="control">
+                    <input class="input is-large" type="email" name="email" placeholder="user" autofocus="">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <input class="input is-large" type="password" name="password" placeholder="mot de passe">
+                </div>
+            </div>
+            <button>Login</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

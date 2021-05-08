@@ -536,3 +536,32 @@ input[type="checkbox"]{
   text-align: center;
 }
 
+.loging_menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.loging_menu input {
+  flex: 100%;
+  font-family: 'Mukta', sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.loging_menu button {
+  flex: 100%;
+  font-family: 'Mukta', sans-serif;
+  width: 100%;
+  font-weight: bold;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #19af54;
+  border: none;
+  color: #eeeeee;
+}
