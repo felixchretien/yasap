@@ -19,9 +19,9 @@ def make_articles_json():
 
     out = dict()
 
-    for file in os.listdir('textes/articles'):
+    for file in os.listdir('box2box/textes/articles'):
 
-        date, titre, resume, bas_de_page, texte = get_articles_elements('textes/articles/' + file)
+        date, titre, resume, bas_de_page, texte = get_articles_elements('box2box/textes/articles/' + file)
         name = file.split('.')[0]
 
         nested_dict = dict()
@@ -35,7 +35,7 @@ def make_articles_json():
 
         out[name] = nested_dict
 
-    with open('textes/articles.json', 'w') as dumpfile:
+    with open('box2box/textes/articles.json', 'w') as dumpfile:
         json.dump(out, dumpfile)
 
 
