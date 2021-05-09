@@ -1,8 +1,8 @@
 .idea/*
 *.DS_Store
 *__pycache__*
-.flaskenv
 .gcloudignore
 .env
 box2box/database/new_data/*
 !box2box/database/new_data/.gitkeep
+venv

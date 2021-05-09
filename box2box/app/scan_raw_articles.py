@@ -8,9 +8,9 @@ def get_articles_elements(file):
         parts = raw.split('\n\n')
         titre = parts[parts.index('!TITRE')+1]
         resume = parts[parts.index('!RÉSUMÉ')+1]
-        bas_de_page = parts[parts.index('!BAS DE PAGE')+1]
-        texte = parts[parts.index('!TEXTE')+1:]
         date = parts[parts.index('!DATE')+1]
+        bas_de_page = parts[parts.index('!BAS DE PAGE')+1: parts.index('!TEXTE')]
+        texte = parts[parts.index('!TEXTE')+1:]
 
         return date, titre, resume, bas_de_page, texte
 

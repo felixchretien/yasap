@@ -9,11 +9,11 @@ with open('box2box/textes/a_propos.txt', 'r') as reader:
 with open('box2box/textes/articles.json') as reader:
     articles_json = json.load(reader)
 
-
 @app.route('/')
 def index():
-    return render_template("home.html", title='Home', active="home", last_article_route="/articles/atalanta-montreal",
-                           last_article=articles_json['atalanta-montreal'])
+    return render_template("home.html", title='Home', active="home", last_article_route="/articles/bezbatchenko",
+                           last_article=articles_json['bezbatchenko'])
+
 
 @app.route('/articles')
 def articles():
@@ -27,4 +27,9 @@ def a_propos():
 
 @app.route('/articles/atalanta-montreal')
 def articles_atalanta_montreal():
-    return render_template("articles/atalanta_montreal.html", active="articles", current_article=articles_json['atalanta-montreal'])
+    return render_template("article_base.html", active="articles", current_article=articles_json['atalanta-montreal'])
+
+
+@app.route('/articles/bezbatchenko')
+def articles_bezbatchenko():
+    return render_template("article_base.html", active="articles", current_article=articles_json['bezbatchenko'])

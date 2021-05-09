@@ -53,7 +53,7 @@ def plot_1():
                                                  'CLB': 'rgb(255,241,54)',
                                                  'MTL': 'rgb(6, 55, 158)'})
 
-    fig.write_json('plot1.json')
+    fig.write_html('../../../templates/plots/plot1.html')
 
 
 def plot_2():
@@ -102,7 +102,7 @@ def plot_2():
                       showlegend=False
                       )
 
-    fig.write_json('plot2.json')
+    fig.write_html('../../../templates/plots/plot2.html')
 
 
 if __name__ == '__main__':
