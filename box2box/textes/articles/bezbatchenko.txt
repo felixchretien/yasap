@@ -1,0 +1,128 @@
+!DATE
+
+8 mai 2021
+
+!TITRE
+
+La méthode Bezbatchenko
+
+!RÉSUMÉ
+
+Tim Bezbatchenko est l’un des directeur généraux les plus en vue dans la MLS. Il a transformé les clubs où il est passé grâce à une méthode particulière qui a fait triompher le Toronto FC et le Crew de Columbus.
+
+!BAS DE PAGE
+
+<sup id="ref1">1</sup> Ce sont des joueurs dont le salaire dépasse 1.625 M$ par année et qui grâce à l’étiquette de joueur désignés voient leur salaire ne compter que pour 612 500$ sur la masse salariale. Chaque équipe compte 3 places de joueurs désignés.
+
+<sup id="ref2">2</sup> John Molinaro, <a href="https://www.sportsnet.ca/soccer/bezbatchenko-hire-sparked-remarkable-tfc-turnaround/">Tim Bezbatchenko hire sparked remarkable TFC turnaround</a>, Sportsnet.ca, 2 janvier 2019.
+
+<sup id="ref3">3</sup> Idem.
+
+<sup id="ref4">4</sup> Les règles de la MLS obligent que les joueurs aux positions 21 à 24 de l’effectif soient payés au moins au salaire minimum sénior et les joueurs aux positions 25-30 soient payés au moins au salaire minimum réserve.
+
+<sup id="ref5">5</sup> James Grossi, <a href="https://www.torontofc.ca/post/2020/03/09/vanney-100-behind-man-who-has-led-toronto-fc-their-success">Vanney 100: Behind the man who has led Toronto FC to their success</a>, Torontofc.ca, 9 mars 2020.
+
+<sup id="ref6">6</sup> Laura Armstrong, <a href="https://www.thestar.com/sports/tfc/opinion/2020/12/01/outgoing-head-coach-greg-vanney-was-out-of-challenges-with-toronto-fc.html">Outgoing hear coach Greg Vanney was out of challenges with Toronto FC</a>, Toronto Star, 1er décembre 2020.
+
+<sup id="ref7">7</sup> Jamie Goldberg, <a href="https://www.oregonlive.com/timbers/2019/01/columbus-crew-formally-introduce-caleb-porter-as-head-coach.html">Columbus Crew formally introduce Caleb Porter as head coach</a>, The Oregonian/OregonLive, 9 janvier 2019.
+
+!TEXTE
+
+Le 28 mai 2005, les Riverhounds de Pittsburgh affrontent les Kings de Cincinnati au Xavier University Soccer Complex. À la 7e minute, un milieu de terrain de 24 ans des Riverhounds procure l’avantage à son équipe qui triomphera 2-0, au coup de sifflet final. Ce sera le seul qu’il marquera en 31 apparitions étalées sur 2 saisons. Le seul but d’une des plus brillantes carrières dans le football nord-américain, couronnée par deux championnats de la MLS, un triplé canadien en 2017, et une finale de la Ligue des Champions de la Concacaf. Un palmarès inconcevable pour un joueur aux performances individuelles modestes tout droit sorti de la USL2.
+
+Ce milieu de terrain est nul autre que Tim Bezbatchenko, actuel président du Crew de Columbus, champion 2020 de la MLS.
+
+Suite à sa carrière de joueur, Bezbatchenko est devenu avocat et a pratiqué le droit chez Shearman & Sterling, un prestigieux cabinet d’avocat américain, pendant 2 ans. Il a fait son retour au football à titre de <i>Directeur des relations avec les joueurs</i> de la MLS, en 2010.
+
+En 2013, à l’âge de 32 ans, il est nommé directeur général du Toronto FC. Relativement inconnu du grand public, sa nomination fut directement entérinée par Tim Leiweke, président de Maple Leafs Sports & Entertainment (MLSE). Sa mission était de transformer le Toronto FC, alors un cancre de la MLS qui n’avait pas participé aux séries éliminatoires lors de ses 7 premières saisons dans la ligue.
+
+Sous la gouverne de Bezbatchenko, le Toronto FC a connu un essor tonitruant et s’est consolidé comme l’une des puissances de la MLS, comme en font foi ses présences répétées en finale de la MLS Cup et en championnat canadien.
+
+Natif de l’Ohio, Bezbatchenko a rejoint le Crew de Columbus dans les mêmes fonctions en janvier 2019. Il ne lui aura fallu que deux saisons pour transformer un club au bord de l’extinction en champion.
+
+Ces succès ne sont pas le fruit du hasard, ou le simple retour d’investissement de millions dépensés par des propriétaires en quête de gloire. Ils sont plutôt le couronnement d’une méthode réfléchie et exécutée d’une main de maître par l’un des meilleurs gestionnaires du football nord-américain.
+
+<h2>Le modèle des 3 joueurs désignés</h2>
+
+Pierre d’assise des équipes de Bezbatchenko, l’utilisation des places de joueurs désignés<a href="#ref1" class='appel_bas_de_age'>1</a>, conditionne une grande partie de la stratégie de recrutement et de développement que Bezbatchenko a mise en place au Toronto FC et au Crew de Columbus. Il faut dire que <a href="https://heinonline.org/hol-cgi-bin/get_pdf.cgi?handle=hein.journals/ucinlr76&section=30">Bezbatchenko s’intéresse à ce mécanisme</a> de la convention collective de la MLS, depuis son passage à l’université et le connaît de fond en comble, à tel point que ses décisions se valident <i>a posteriori</i> par des études scientifiques.
+
+Les joueurs désignés, s’ils sont bien recrutés et performent à la hauteur de leur réputation, sont de véritables catalyseurs pour les performances d’un club, principalement au niveau financier. En effet, l’effet des joueurs désignés sur la <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.684.5514&rep=rep1&type=pdf">vente de billets</a> et sur <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.887.3322&rep=rep1&type=pdf">l’intérêt généré</a> par un club est bien documenté, surtout dans les marchés d’envergure.
+
+Il faut aussi tenir compte de l’élément suivant mis en lumière par une enquête statistique: <a href="https://economics.unt.edu/sites/economics.unt.edu/files/users/jk0201/2013_1_Jewell.pdf">En MLS, une augmentation en pourcentage de la masse salariale a un impact positif sur la production de points si elle ne s’accompagne pas d’une augmentation plus importante de l’iniquité salariale en pourcentage</a>. Ainsi, si l’on décide d’embaucher un joueur désigné à fort prix, tout indique qu’il vaut mieux en embaucher plusieurs, afin d’atténuer l’accroissement de la disparité salariale de l’effectif au complet.
+
+La première mouture de la stratégie de Bezbatchenko s’appuya sur le recrutement de Michael Bradley, Jermaine Defoe et Gilberto lors de la période de transfert de l’hiver 2014, sa première à la barre de l’équipe. En effectuant un tel recrutement, Bezbatchenko a mis sa philosophie sportive au service de l’objectif financier de MLSE dont les propriétaires souhaitaient montrer leur ambition d’en faire une puissance de la MLS. Malheureusement, entre blessures et contre-performances, Defoe et Gilberto n’eurent pas l’impact escompté. Bezbatchenko n’en démordit pas et limita sa perte en se défaisant de ses deux attaquants, au lieu de tenter de forcer leurs performances.
+
+En prenant cette décision qui semblait drastique, Bezbatchenko renforçait son projet. En effet, comme il a été démontré dans un article de 2019,  "<a href="https://digitalcommons.butler.edu/cgi/viewcontent.cgi?article=1512&context=ugtheses">DPs only produce tactical benefits if they score goals</a>", ce faisant si Bradley s’acquittait bien de son rôle de capitaine du Toronto FC, l’absence de réussite des deux attaquants rendait futile leur statut de joueur désigné.
+
+Avec l’importance de l’apport offensif des joueurs désignés et la nécessité de remplacer ses deux attaquants, Bezbatchenko a recruté Jozy Altidore et Sebastian Giovinco, deux joueurs offensifs aux styles complètement différents. L’arrivée de ces deux joueurs a marqué la consécration de la stratégie de Bezbatchenko, Giovinco totalisant 68 buts et 52 passes décisives en 114 matchs de MLS tandis qu’Altidore compte 58 buts et 20 passes décisives en 127 matchs de MLS. En 99 matchs joués ensemble, toutes compétitions confondues, ils ont combiné directement 25 fois pour marquer, et ont une fiche de 12 victoires 4 défaites dans les confrontations à élimination directe.
+
+En adoptant une stratégie à trois joueurs désignés, Bezbatchenko a assuré à son équipe de pouvoir compter sur une menace offensive de haut-niveau dans presque tous les matchs disputés.
+
+Cette stratégie s’étant avérée efficace entre 2015 et 2017, Bezbatchenko n’a pas hésité à poursuivre dans la même veine, suite aux difficultés rencontrées en 2018. Il a simplement remplacé son principal joueur offensif, Sebastian Giovinco, pour un substitut tout aussi performant, Alejandro Pozuelo, permettant ainsi au Toronto FC de rejoindre la finale de la MLS Cup, en 2019, alors qu’il avait terminé 19e l’année précédente.
+
+À son arrivée à Columbus, à quelques semaines du début de la saison 2019, Bezbatchenko a dû composer avec un effectif déjà construit, qui ne comptait que deux joueurs désignés, Gyasi Zardes et Pedro Santos. Cependant à l’aube de la saison 2020, Bezbatchenko s’est attaché les services du milieu offensif Lucas Zelayaran. Ce dernier est venu dynamiser l’attaque du Crew, et permit à Pedro Santos de retrouver son poste de prédilection sur l’aile. Signe de son impact immédiat, et du succès de la stratégie des 3 joueurs désignés, Zelarayan a été nommé nouveau-venu de l’année en MLS et a permis à Columbus de remporter la MLS Cup avec une brillante performance de deux buts en finale. Cette signature a pu être effectuée grâce à une utilisation stratégique des règles salariales qui a permis à Columbus de libérer une place de joueur désigné, en réduisant le poids du contrat et du frais de transfert de Milton Valenzuela.
+
+Si cette stratégie produit des équipes gagnantes, la pérennité de son succès est loin d’être garantie. Comme l’explique Bezbatchenko lui-même: "At the end of the season, the system is designed for the top teams to be cut down. It’s designed to create parity, and the way that the system does it is that the financial bonuses of the players always exceed the increase in the salary cap, so you’re going to have to shed players each year”<a href="#ref2" class='appel_bas_de_age'>2</a>.
+
+Ainsi en utilisant la stratégie à trois joueurs désignés une équipe peut, certes, fourbir ses armes offensives avec des joueurs d’exception, mais elle hypothèque automatiquement sa masse salariale de 1 837 500$ (612 500$/joueur) soit 37,5% de la masse salariale disponible qui s’élevait à 4 900 000$ en 2020. Il ne reste donc que peu de place pour retenir les 8 autres titulaires, en plus des joueurs secondaires, surtout si certains d’entre eux doivent renégocier leur salaire.
+
+Ce faisant, une équipe doit être capable de remplacer les joueurs de soutien qui entourent les joueurs désignés, ce que Tim Bezbatchenko a réussi avec brio lors de son passage au Toronto FC et qu’il met en place actuellement à Columbus.
+
+<h2>Recrutement et développement de joueurs secondaires</h2>
+
+Afin de pouvoir conserver son noyau de trois joueurs désignés, Bezbatchenko a dû se résoudre à devoir laisser partir certains de ses cadres années après années, de par les pressions engendrées par le plafond salarial. Comme lui-même l’expliquait dans une entrevue "The salary cap always catches up with you. You can be creative in all sorts of ways … but the reality is that it’s very difficult in a salary cap league"<a href="#ref3" class='appel_bas_de_age'>3</a>.
+
+En 2014, Stefan Frei, alors gardien partant du club fut transigé à Seattle. En 2015, Dominic Oduro et Kyle Bekker ayant apparu tous les deux dans 24 matchs partirent. En 2016 Collen Warner, qui avait disputé 31 matchs la saison précédente, le gardien Chris Konoptka et le défenseur Warren Creavalle furent transigés. En 2017, ce fut autour du milieu Will Johnson, utilisé dans 32 matchs, de partir. En 2018, Steven Beitashour fut sacrifié et en 2019, Victor Vazquez, Nick Hagglund, Tosaint Ricketts et Nick Hasler furent remerciés.
+
+La perte de joueurs clefs constitue la rançon de la gloire que Tim Bezbatchenko a amenée au Toronto FC et qu’il transpose actuellement à Columbus. Or, le second élément qui a fait le succès de Tim Bezbatchenko est sa capacité à remplacer ces joueurs secondaires qui quittent le club à chaque année.
+
+En utilisant plus du tiers de sa masse salariale concentrée sur 3 joueurs, Bezbatchenko se doit de trouver des alternatives afin de compléter son effectif sans pour autant perdre en qualité. Ainsi, pour combler ses effectifs, il prône le développement de joueurs issus de l’académie de son club, car <a href="https://www.mlssoccer.com/league/official-rules/mls-roster-rules-and-regulations#:~:text=A%20club%20may%20have%20no%20more%20than%20ten%20players%20on,they%20graduate%20from%20the%20program.">au regard de l’actuelle réglementation de la ligue</a>, ils s’avèrent d’excellent candidats pour combler les places 21 à 30 de l’effectifs d’une équipe MLS
+
+D’abord, parce qu’il est obligatoire que les places 29 à 30 soient occupés par ces joueurs et que les places 25 à 28 soient occupés par des joueurs de moins de 24 ans, ensuite parce que la ligue subventionne leurs salaires via le <i>Homegrown Player Subsidy</i> réduisant ainsi les coûts pour le club, et ultimement parce qu’ils peuvent être payés au salaire minimum réserve ($63,547) ou senior ($81,375)<a href="#ref4" class='appel_bas_de_age'>4</a>. Ce faisant, l’impact minimal de ces joueurs sur la masse salariale d’une équipe peut être optimisée à 14% de la masse salariale pour ces 10 joueurs.
+
+Grâce à sa connaissance pointue des règles concernant les effectifs en MLS, Bezbatchenko a rapidement entrepris des réformes dans le système de développement du club. En 2014, il a mis sur pied le Toronto FC II, une équipe professionnelle réserve, compétitionnant en USL Pro et en USL League One depuis 2018. Offrant un environnement de niveau professionnel aux jeunes joueurs provenant de l’académie ou des ligues universitaires, le Toronto FC II s’est avéré une excellente source de joueurs de soutien pour l’équipe première. Il a servi entre autres de tremplin pour Ayo Akinola, Raheem Edwards, Chris Manella, Jay Chapman, Alex Bono et Tsubasa Endoh, tout en offrant des minutes de jeu à de nombreux joueurs établis en MLS cherchant à conserver la forme. Ainsi, en permettant à certains joueurs d’engranger de l’expérience professionnelle, Bezbatchenko s’est assuré de pouvoir combler les départs de joueurs secondaires tout en conservant un bon standard de performance et une saine gestion de la masse salariale.
+
+Pour fournir son équipe réserve, Bezbatchenko a tôt fait de renforcer l’académie du Toronto FC dès le début de son règne.
+
+D’abord en inscrivant leur équipe U13 la nouvellement formée, Ontario Premier Development League (OPDL), pour ensuite étendre l’inscription aux autres équipes de jeunes. Ensuite, en conservant une équipe U19, nommée Toronto FC III, malgré la création d’une équipe professionnelle réserve. Le Toronto FC III compétitionna longtemps en League 1 Ontario, le championnat provincial semi-professionnel, avant de rejoindre en 2018-19, la USSDA, offrant ainsi un avant-goût du niveau senior à leurs joueurs avant que ceux-ci ne passent chez les professionnels avec le TFC II. Pour superviser ces changements dans l’académie et le développement des joueurs, Bezbatchenko <a href="https://www.torontofc.ca/post/2015/06/29/laurent-guyot-named-toronto-fc-kia-academy-director">recruta Laurent Guyot</a>, ancien entraîneur de l’équipe nationale U17 de France et ancien directeur de la formation du FC Nantes. Le Toronto FC lança également, en 2016, sous la gouverne de Bezbatchenko un <a href="https://www.torontofc.ca/academy/partnerships">programme de partenariat</a> avec des clubs locaux, à London et Windsor. Ces clubs prirent l’image et le nom du Toronto FC, renforçant la présence du Toronto FC dans la province, <a href="https://www.winnipegfreepress.com/sports/toronto-fc-partners-with-osa-to-promote-soccer-from-grassroots-to-pro-ranks-370973491.html">en plus d’officialiser un partenariat avec l’Ontario Soccer Association</a> afin de voir les meilleurs espoirs ontariens redirigés dans le système du Toronto FC.
+
+Fruits de toutes ces initiatives, <a href="https://www.torontofc.ca/academy/teams/toronto-fc-academy-quick-facts">le Toronto FC a signé 18 joueurs en provenance de son académie</a>, via des <i>Homegrown Player Contracts</i>, permettant au club d’obtenir une profondeur nécessaire pour permettre une rotation l’effectif.
+
+Bezbatchenko met actuellement en branle les mêmes démarches chez le Crew de Columbus. En effet, <a href="https://www.dispatch.com/story/sports/2021/03/12/columbus-crew-awaiting-new-mls-reserve-league-crew-ii-reserve-team/4649870001/>il a annoncé</a> que Columbus était en processus de création d’une équipe réserve, qui devrait voir le jour d’ici 2022. Également, depuis l’arrivée de Bezbatchenko, le club a lancé une pré-académie pour les jeunes de 9 à 12 ans, et a effectué <a href="https://www.soccerwire.com/news/columbus-crew-academy-announces-technical-staff-updates/">plusieurs changements dans la direction de son académie</a>, entre autres, la création d’un poste de <i>Manager, Academy Scouting & Recruitment</i>, l’embauche de l’ancien directeur technique de l’académie du D.C. United, Gus Teren et <a href="https://www.mlssoccer.com/news/columbus-crew-sc-name-experienced-youth-coach-kelvin-jones-academy-director">la nomination d’un nouveau directeur d’académie</a>, Kelvin Jones. L’objectif de toutes ces réformes est de reproduire a plus grande échelle les parcours de Will Trapp, ou d’<a href="https://theathletic.com/2257330/2020/12/13/aidan-morris-columbus-crew-mls-cup/?source=emp_shared_article">Aidan Morris</a>, un joueur de l’académie ayant déployé, en 2017, dans le MAPFRE Stadium une bannière portant la mention "Save the Crew Academy", pour devenir un remplaçant essentiel à la conquête de la MLS Cup en 2020.
+
+Bezbatchenko s’est également servi du Superdraft pour ajouter des joueurs secondaires, contrairement à la pratique de certains clubs de n’y accorder que peu d’importance. Ainsi, le Toronto FC a pu mettre la main sur Tsubasa Endoh, Alex Bono, Nick Hagglund et Daniel Lovitz. Au-delà de la sélection des joueurs Bezbatchenko a habilement manœuvré avec ses choix aux repêchages les échangeant entre autres, pour obtenir un meilleur rang d’allocation pour pouvoir signer Laurent Ciman, ou pour obtenir des joueurs qui, tel que mentionné précédemment, se sont avérés important pour le club comme Eriq Zavaleta, Steven Beitashour ou Will Johnson.
+
+Il a également effectué de fructueux recrutement de joueurs TAM, comme l’excellent Victor Vazquez venu déchargé Sebastian Giovinco, grâce à la mise en place d’un coûteux département d’analyse statistique, et le défenseur Chris Mavinga, mal-aimé de la Ligue1,  qui s’est avéré une pièce maîtresse de la défense torontoise.
+
+<h2>Embauche d'un entraîneur vétéran</h2>
+
+En multipliant les sources de recrutement pour obtenir les meilleurs joueurs secondaires possibles pour entourer ses joueurs désignés, Bezbatchenko a réussi à maintenir un effectif compétitif. Or, à la manière d’un paquebot sans pilote, un excellent effectif, tout aussi talentueux et bien constitué soit-il, ne saurait naviguer les pièges d’une saison en MLS sans un entraîneur d’expérience.
+
+Avec les attentes qui pèsent sur un jeune directeur-général de club à qui l’on donne carte blanche pour recruter des joueurs avec l’objectif de faire de son club une puissance de la ligue, la tentation de recruter un entraîneur vedette est grande. Or, en arrivant en poste tant à Toronto qu’à Columbus, Bezbatchenko, s’est plutôt tourné vers des entraîneurs américains possédant une vaste expérience en MLS et un profil bien précis
+
+En effet, bien que Greg Vanney n’ait eu qu’une expérience limitée d’entraîneur ayant été brièvement directeur de l’académie du Real Salt Lake et entraîneur-adjoint du défunt Chivas USA pendant deux saisons, celui-ci a amené sur le banc du Toronto FC une expérience de []270 matchs en MLS au sein de 4 clubs différents.
+
+De son côté, Caleb Porter, nommé sur le banc du Crew par Bezbatchenko, possédait déjà 202 matchs d’expérience comme entraîneur avec les Timbers de Portland, ainsi qu’une MLS Cup en 2015, et le titre d’entraîneur de l’année en MLS pour la saison 2013.
+
+Reprenant tous deux des effectifs en plein bouleversements, ces deux entraîneurs ont su imposer des styles de jeu axés sur la possession pour favoriser leurs joueurs désignés offensifs comme Giovinco ou Zelayaran.
+
+Toutefois, ils ont été choisis par Bezbatchenko pour deux raisons. D’abord la qualité de leur relation avec leurs joueurs. De par la manière dont Bezbatchenko a dû remanier les effectifs des deux clubs à son arrivée et avec la constante perte de joueurs cadres, imposée par le modèle à 3 joueurs désignés, il est plus que nécessaire d’avoir un entraîneur qui peut apporter de la stabilité dans le vestiaire et un esprit rassembleur tant en gestes qu’en paroles.
+
+En effet, <a href=https://www.dispatch.com/story/sports/mls/columbus-crew/2020/12/12/caleb-porter-has-helped-columbus-crew-become-mls-title-contender/6520890002/>comme l’expliquait Caleb Porter</a> en marge de la finale de la MLS Cup en décembre 2020, “Winning is not about — it's not for me. It's about the players.”. Ces paroles font échos à celles de Vanney qui déclarait “I'm happy for the guys that I get to work with because they're the ones who win the games […] That's what it's about at the end of the day. My job is just to help organize them and give them a framework in which to go win games”<a href="#ref5" class='appel_bas_de_age'>5</a>, en marge de sa 100e victoire comme entraîneur en MLS.
+
+Ensuite, parce que tant Porter et Vanney sont des entraîneurs motivés par le défi de transformer des clubs moribonds en champions. Reflétant sur son passage à Toronto, en conférence de presse, Vanney mentionna :
+
+“I’m a builder. I like to build things and I like projects ... (TFC) is in a really, really great place. There’s not a lot of building to do. It is an incredible club that is positioned, from where we started to where we are, to be great”<a href="#ref6" class='appel_bas_de_age'>6</a>.
+
+Tandis que Porter affirma en s’adressant aux partisans du Crew de Columbus en marge de son embauche :
+
+“When I saw all of you in this community and the supporters rally behind this club, that’s the type of club that I want to manage, a club that’s relevant, a club that the people are proud of, a club where they are going to fight, roll up their sleeves and save it. I felt compelled to come back and to jump on board with that movement to save the Crew, but not just save it, elevate it and continue to raise the bar."<a href="#ref7" class='appel_bas_de_age'>7</a>
+
+Si certes ces entraîneurs ont pu bénéficier de moyens que peu de leurs homologues ont eu et ont eu l’opportunité de diriger certains des meilleurs joueurs de la MLS, il n’en demeure pas moins qu’ils y sont arrivés, grâce à un état d’esprit bien particulier.
+
+De plus, Bezbatchenko s’est assuré de leur offrir les outils nécessaires à leur réussite. Il a tôt fait d’impliquer Vanney dans le recrutement des joueurs, allant même jusqu’à recruter le neveu de ce dernier, Eriq Zavaleta et en sélectionnant un des protégés de Vanney, Marky Delgado, au repêchage de dispersion du Chivas USA. Alors qu’il offrit à Porter son joueur préféré, le milieu Darlington Nagbe, malgré un frais de transfert exorbitant, afin de lui permettre de mettre en place son système de jeu de prédilection.
+
+Ainsi, l’embauche de Vanney et de Porter constitue donc la troisième assise de la stratégie de Tim Bezbatchenko, lui permettant d’avoir des entraîneurs motivés par les défis amenés par les changements organisationnels, capable de rassembler et de faire performer des effectifs instables et porteur de la mentalité ambitieuse que Bezbatchenko a insufflé à ces deux clubs.
+
+Ultimement, on s’aperçoit quand on regarde le passage de Bezbatchenko au Toronto FC, et ses succès presque instantanés à Columbus, qu’il a su redynamiser ces clubs. Si seule l’épreuve du temps saura confirmer l’ascension du Crew comme une puissance de la MLS, on peut d’ores et déjà affirmer que Bezbatchenko est probablement l’un des meilleurs dirigeants sportifs de l’histoire de la MLS et sa méthode en est certainement la raison.
+

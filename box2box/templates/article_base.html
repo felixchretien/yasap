@@ -1,0 +1,32 @@
+{% extends "top_bar.html" %}
+
+{% block content %}
+    <script src=”https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <div class="main_content">
+
+        <h1>{{ current_article['titre'] }}</h1>
+        <div>
+            {% for paragraphe in current_article['texte'] %}
+            <p>{{ paragraphe | safe }}</p>
+            {% endfor %}
+        </div>
+
+        <div>
+            <script>
+                var figure = JSON.parse({{ url_for('analytics/plots/utilite_des_dp', filename='styles.css')}});
+                Plotly.newPlot('graph-div', figure.data, figure.layout);
+            </script>
+        </div>
+
+        <div class="bas_de_page_border">
+        </div>
+
+        <div>
+            {% for paragraphe in current_article['bas_de_page'] %}
+            <p class="note_de_bas_de_page">{{ paragraphe | safe }}</p>
+            {% endfor %}
+        </div>
+
+    </div>
+{% endblock %}
