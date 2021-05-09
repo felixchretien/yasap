@@ -1,31 +1,43 @@
 {% extends "top_bar.html" %}
 
 {% block content %}
-    <script src=”https://cdn.plot.ly/plotly-latest.min.js"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
     <div class="main_content">
 
         <h1>{{ current_article['titre'] }}</h1>
-        <div>
+
+        <div class="main_content">
+
             {% for paragraphe in current_article['texte'] %}
-            <p>{{ paragraphe | safe }}</p>
+
+                {% if '!PLOT' in paragraphe %}
+
+                    <h3>{{ paragraphe.split(';')[2].strip() }}</h3>
+
+                    <div class="plotly_plot">
+                        {% include 'plots/' + paragraphe.split(';')[1].strip() + '.html' %}
+                    </div>
+
+                    <p class="explication_de_graphique">Note de lecture: {{ paragraphe.split(';')[3].strip() }}</p>
+
+                {% else %}
+
+                    <p>{{ paragraphe | safe }}</p>
+
+                {% endif %}
+
             {% endfor %}
+
         </div>
+
+        <div class="bas_de_page_border"></div>
 
         <div>
-            <script>
-                var figure = JSON.parse({{ url_for('analytics/plots/utilite_des_dp', filename='styles.css')}});
-                Plotly.newPlot('graph-div', figure.data, figure.layout);
-            </script>
-        </div>
 
-        <div class="bas_de_page_border">
-        </div>
-
-        <div>
             {% for paragraphe in current_article['bas_de_page'] %}
             <p class="note_de_bas_de_page">{{ paragraphe | safe }}</p>
             {% endfor %}
+
         </div>
 
     </div>

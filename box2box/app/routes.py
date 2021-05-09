@@ -9,7 +9,6 @@ with open('box2box/textes/a_propos.txt', 'r') as reader:
 with open('box2box/textes/articles.json') as reader:
     articles_json = json.load(reader)
 
-
 @app.route('/')
 def index():
     return render_template("home.html", title='Home', active="home", last_article_route="/articles/bezbatchenko",

@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
 
 
+*{
+  font-family: 'Mukta', sans-serif;
+}
+
 html{
   background-color: #eeeeee;
 }
@@ -23,6 +27,17 @@ h2{
   padding-left: 10%;
   font-family: 'Mukta', sans-serif;
   font-weight: normal;
+}
+
+h3{
+  margin-top: 5vh;
+  margin-bottom: 0;
+  font-size: 25px;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-family: 'Mukta', sans-serif;
+  font-weight: normal;
+  text-align: center;
 
 }
 
@@ -36,6 +51,11 @@ p{
 
 p.note_de_bas_de_page{
   font-size: 16px;
+}
+
+p.explication_de_graphique{
+  font-size: 16px;
+  margin-bottom: 2vh;
 }
 
 a{
@@ -536,3 +556,12 @@ input[type="checkbox"]{
   text-align: center;
 }
 
+.plotly_plot {
+  height: 60vh;
+  margin: 0 9%;
+  padding: 0;
+}
+
+.modebar{
+      display: none !important;
+}
