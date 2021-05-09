@@ -114,12 +114,14 @@ a.appel_bas_de_age{
 
 h2.article_summary_block {
   font-family: "Playfair Display";
+  margin: 0;
   text-align: center;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
 h3.article_summary_block {
+  margin: 0;
   text-align: center;
   font-size: 16px;
   color: #4c4c4c;
@@ -564,4 +566,8 @@ input[type="checkbox"]{
 
 .modebar{
       display: none !important;
+}
+
+.article_summary{
+  margin-bottom: 10vh;
 }
