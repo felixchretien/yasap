@@ -17,12 +17,12 @@ body{
 
 h1{
   font-family: "Playfair Display";
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 180px;
 }
 
 h2{
-  font-size: 40px;
+  font-size: 30px;
   padding-right: 10%;
   padding-left: 10%;
   font-family: 'Mukta', sans-serif;
@@ -32,7 +32,7 @@ h2{
 h3{
   margin-top: 5vh;
   margin-bottom: 0;
-  font-size: 25px;
+  font-size: 20px;
   padding-right: 10%;
   padding-left: 10%;
   font-family: 'Mukta', sans-serif;
@@ -45,16 +45,16 @@ p{
   font-family: 'Mukta', sans-serif;
   padding-right: 10%;
   padding-left: 10%;
-  font-size: 20px;
+  font-size: 16px;
   text-align: justify;
 }
 
 p.note_de_bas_de_page{
-  font-size: 16px;
+  font-size: 13px;
 }
 
 p.explication_de_graphique{
-  font-size: 16px;
+  font-size: 13px;
   margin-bottom: 2vh;
 }
 
@@ -123,7 +123,7 @@ h2.article_summary_block {
 h3.article_summary_block {
   margin: 0;
   text-align: center;
-  font-size: 16px;
+  font-size: 13px;
   color: #4c4c4c;
   font-family: 'Mukta', sans-serif;
 }
@@ -181,7 +181,7 @@ a:hover.lire_plus{
 
 .one_third h3{
   font-family: 'Mukta', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   font-weight: normal;
 }
@@ -194,7 +194,7 @@ a:hover.lire_plus{
   font-family: 'Mukta', sans-serif;
   padding-right: 13px;
   padding-left: 13px;
-  font-size: 20px;
+  font-size: 16px;
   text-align: justify;
 }
 
@@ -207,7 +207,7 @@ a:hover.lire_plus{
 
 .bigtitle h1{
     padding: 10% 3%;
-    font-size: 75px;
+    font-size: 55px;
     text-align: left;
     color: #eeeeee;
     margin: 0;
@@ -219,7 +219,7 @@ a:hover.lire_plus{
 
 .last_article h1{
     margin-top: 0;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Mukta', sans-serif;
     font-weight: normal;
 
@@ -235,7 +235,7 @@ a:hover.lire_plus{
 
 .last_article h3 {
   text-align: center;
-  font-size: 16px;
+  font-size: 13px;
   color: #4c4c4c;
   font-family: 'Mukta', sans-serif;
 }
@@ -249,7 +249,6 @@ a:hover.lire_plus{
 .main_content H1 {
   margin: 5% 5%;
 }
-
 
 .main_content p {
   padding-top: 1%;
@@ -461,7 +460,7 @@ input[type="checkbox"]{
 .home_about h1 {
   margin: 5vh;
   font-weight: normal;
-  font-size: 42px;
+  font-size: 30px;
 }
 
 
@@ -469,7 +468,7 @@ input[type="checkbox"]{
   margin: 5vh;
   font-family: 'Mukta', sans-serif;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 16px;
 }
 
 

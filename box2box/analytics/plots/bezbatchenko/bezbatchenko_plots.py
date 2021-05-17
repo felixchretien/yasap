@@ -5,7 +5,7 @@ from box2box.analytics.plots.box2box_plots import team_time_series_plot
 from box2box.database.mysql_connection import execute_query
 
 if os.getcwd()[-5:] == 'yasap':
-    os.chdir('app/plots/bezbatchenko')
+    os.chdir('box2box/analytics/plots/bezbatchenko')
 
 if os.getcwd()[-5:] == 'plots':
     os.chdir('bezbatchenko')
@@ -62,32 +62,29 @@ def plot_2():
 
     data = execute_query(query)
 
+    data['Invitée aux séries'] = 0
+    data.loc[data['firstRound'] == 1, 'Invitée aux séries'] = 1
+    data.loc[data['secondRound'] == 1, 'Invitée aux séries'] = 1
+    data.loc[data['confFinal'] == 1, 'Invitée aux séries'] = 1
+    data.loc[data['mlsCup'] == 1, 'Invitée aux séries'] = 1
+
+    data['Participation aux séries'] = 'Exclue des séries'
+    data.loc[data['Invitée aux séries'] == 1, 'Participation aux séries'] = 'Invitée aux séries'
+
     fig = go.Figure()
 
-    data['offseason'] = 'Exclue des séries'
-
-    data.loc[data['mlsCup'] == 1, 'confFinal'] = 1
-
-    data.rename(columns={
-        'firstRound': 'Première ronde',
-        'secondRound': 'Deuxième Ronde',
-        'confFinal': 'Finale'
-    }, inplace=True)
-
-    for i in ['Exclue des séries', 'Première ronde', 'Deuxième Ronde', 'Finale']:
-
-        if i != 'Exclue des séries':
-            data.loc[data[i] == 1, 'offseason'] = i
-
     # Need to go through the rist loop before starting the second one!
-    for i in ['Exclue des séries', 'Première ronde', 'Deuxième Ronde', 'Finale']:
-        fig.add_trace(go.Box(y=data.loc[data['offseason'] == i, "teamTotalCompensation"],
-                             x=data.loc[data['offseason'] == i, "offseason"],
-                             customdata=data[data['offseason'] == i],
+    for i in ['Exclue des séries', 'Invitée aux séries']:
+        fig.add_trace(go.Box(y=data.loc[data['Participation aux séries'] == i, "teamTotalCompensation"],
+                             x=data.loc[data['Participation aux séries'] == i, "Participation aux séries"],
+                             customdata=data[data['Participation aux séries'] == i],
                              whiskerwidth=0.2,
                              marker_size=4,
+                             line_width=1,
+                             pointpos=0,
+                             fillcolor='rgba(255,255,255,0)',
                              boxpoints="all", boxmean=True, name='',
-                             marker={'color': '#19af54'}, showlegend=False, line_color='grey',
+                             marker={'color': '#19af54'}, showlegend=False, line_color='rgba(111,111,111,0.4)',
                              hovertemplate='%{customdata[0]} '
                                            '%{customdata[1]}<br>'
                                            "%{y:$,.0f}<br>"
